@@ -1,0 +1,66 @@
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: var(--pad);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.userbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+/* ===== Select (dropdown) styling ===== */
+
+select {
+  background-color: #0f172a; /* dark background */
+  color: #e5e7eb;            /* readable text */
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  appearance: none;          /* removes default OS styling */
+}
+
+/* Hover / focus */
+select:hover {
+  border-color: #60a5fa;
+}
+
+select:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.4);
+}
+
+/* Dropdown options */
+select option {
+  background-color: #0f172a; /* fixes white dropdown */
+  color: #e5e7eb;
+}
+
+/* Disabled state */
+select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
