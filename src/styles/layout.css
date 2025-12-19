@@ -30,6 +30,7 @@
 }
 
 /* ===== Select (dropdown) styling ===== */
+
 select {
   background-color: #0f172a; /* dark background */
   color: #e5e7eb;            /* readable text */
